@@ -1,3 +1,58 @@
-.burger {
-    background-color:blue;
+
+.pos-brand {
+    position:absolute;
+    height:50px;
+    width:140px;
+    top:3px;
+    left:10%;
+    background: url("https://bc60e901-95fb-4aa0-ade3-d02c466ded0d.ws-eu01.gitpod.io/mini-browser/workspace/amazin.co.uk/images/CoffeeCup.jpg") no-repeat center center;
+    background-color:rgba(50,50,50,.25)
 }
+
+.overlay-brand {
+    position:absolute;
+    height:50px;
+    width:140px;
+    top:3px;
+    left:10%;
+    color:white;
+    background-color:rgba(0, 128, 128, 0.25);
+}
+    
+.align-brand {
+    text-align:center;
+    padding-top:10px;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.pos-search {
+    position:absolute;
+    top:9px;
+    left:30%;
+}
+
+.pos-menu {
+    position:absolute;
+    top:9px;
+    left:60%;
+    text-align:left;
+}
+
+.pos-menu a:hover {
+    color:rgb(162, 187, 160);
+}
+
+.format-menu {
+    color:white;
+    padding-right:25px;
+}
+
+.nav-format {
+    background-color:teal;
+}
+
+ul {
+    list-style-type:none;
+}
+
