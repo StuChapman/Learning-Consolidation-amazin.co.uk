@@ -1,29 +1,30 @@
 
 .pos-brand {
     position:absolute;
-    height:50px;
+    height:52px;
     width:140px;
     top:3px;
     left:10%;
-    background: url("https://bc60e901-95fb-4aa0-ade3-d02c466ded0d.ws-eu01.gitpod.io/mini-browser/workspace/amazin.co.uk/images/CoffeeCup.jpg") no-repeat center center;
-    background-color:rgba(50,50,50,.25)
 }
 
 .overlay-brand {
     position:absolute;
-    height:50px;
-    width:140px;
+    height:52px;
+    width:141px;
     top:3px;
     left:10%;
     color:white;
-    background-color:rgba(0, 128, 128, 0.25);
+    background-color:rgba(0, 128, 128, 0.2);
 }
-    
-.align-brand {
-    text-align:center;
-    padding-top:5px;
-    color:white;
-    font-size:x-large;
+
+.format-brand {
+    border-style:none;
+}
+
+.format-brand:hover {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color:rgba(0, 128, 128, 0.3)
 }
 
 .pos-search {
@@ -34,7 +35,7 @@
 
 .pos-menu {
     position:absolute;
-    top:9px;
+    top:5px;
     left:60%;
     text-align:left;
 }
@@ -55,13 +56,17 @@
     border-radius: 2px;
 }
 
+.format-nav a:hover {
+    background-color:rgba(0, 128, 128, 0.219);
+}
+
 .format-nav {
     background-color:teal;
 }
 
 .format-icons {
     color:rgb(129, 8, 8);
-    font-size:x-large;
+    font-size:large;
 }
 
 ul {
