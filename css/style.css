@@ -21,9 +21,9 @@
     
 .align-brand {
     text-align:center;
-    padding-top:10px;
+    padding-top:5px;
     color:white;
-    font-family: 'Permanent Marker', cursive;
+    font-size:x-large;
 }
 
 .pos-search {
@@ -40,16 +40,28 @@
 }
 
 .pos-menu a:hover {
-    color:rgb(162, 187, 160);
+    color:white;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 .format-menu {
     color:white;
-    padding-right:25px;
+    padding-right:45px;
+    text-align:right;
+    line-height:50%;
+    font-weight:bold;
+    border: 1px solid transparent;
+    border-radius: 2px;
 }
 
-.nav-format {
+.format-nav {
     background-color:teal;
+}
+
+.format-icons {
+    color:rgb(129, 8, 8);
+    font-size:x-large;
 }
 
 ul {
