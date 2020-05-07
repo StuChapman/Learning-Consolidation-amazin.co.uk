@@ -1,7 +1,9 @@
-.pos-nav-btn {
+@media (min-width: 1200px) {
+    .p-nav-btn {
     position:absolute;
     top:19px;
     left:10px;
+    }
 }
 
 .f-nav {
@@ -17,9 +19,21 @@
     border-style:none;
     border: 1px solid transparent;
     border-radius: 3px;
-    position:relative;
-    left:10%;
     padding:.5px .1px .5px .5px;
+    position:absolute;
+    top:2px;
+    left:2px;
+}
+
+@media (min-width: 1200px) {
+  .f-brand {
+    border-style:none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    position:relative;
+    left:5%;
+    padding:.5px .1px .5px .5px;
+  }
 }
 
 .f-brand:hover {
@@ -49,7 +63,10 @@ f-search {
 }
 
 .f-menu {
-    padding-top:6px;
+    height:50px;
+}
+
+.f-menu-list {
     color:rgb(221, 218, 218);
     text-align:right;
     line-height:50%;
@@ -77,10 +94,6 @@ ul {
     list-style-type:none;
 }
 
-li {    
-    border: 1px solid red;
-}
-
-div {
-    border: 1px solid green;
+section {
+    background-color:teal;
 }
