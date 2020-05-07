@@ -1,70 +1,74 @@
-
-.pos-brand {
+.pos-nav-btn {
     position:absolute;
-    height:52px;
-    width:140px;
-    top:3px;
-    left:10%;
+    top:19px;
+    left:10px;
 }
 
-.overlay-brand {
-    position:absolute;
-    height:52px;
-    width:141px;
-    top:3px;
-    left:10%;
-    color:white;
-    background-color:rgba(0, 128, 128, 0.2);
+.f-nav {
+    background-color:teal;
+    position:relative;
 }
 
-.format-brand {
-    border-style:none;
-}
-
-.format-brand:hover {
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color:rgba(0, 128, 128, 0.3)
-}
-
-.pos-search {
-    position:absolute;
-    top:9px;
-    left:30%;
-}
-
-.pos-menu {
-    position:absolute;
-    top:5px;
-    left:60%;
-    text-align:left;
-}
-
-.pos-menu a:hover {
-    color:white;
-    border: 1px solid black;
-    border-radius: 3px;
-}
-
-.format-menu {
-    color:white;
-    padding-right:45px;
-    text-align:right;
-    line-height:50%;
-    font-weight:bold;
-    border: 1px solid transparent;
-    border-radius: 2px;
-}
-
-.format-nav a:hover {
+.f-nav a:hover {
     background-color:rgba(0, 128, 128, 0.219);
 }
 
-.format-nav {
-    background-color:teal;
+.f-brand {
+    border-style:none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    position:relative;
+    left:10%;
+    padding:.5px .1px .5px .5px;
 }
 
-.format-icons {
+.f-brand:hover {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.f-btn {
+    border-style:none;
+    height:100%;
+    width:100%;
+    position: absolute;;
+    left:0;
+    top:0;
+    color:white;
+    background-color:rgba(73, 245, 245, 0.1);
+}
+
+.f-btn:hover {
+    background-color:rgba(73, 245, 245, 0.2);
+}
+
+f-search {
+    width:100%;
+    position: absolute;
+    left:80%;
+}
+
+.f-menu {
+    padding-top:6px;
+    color:rgb(221, 218, 218);
+    text-align:right;
+    line-height:50%;
+    border:1px solid transparent;
+    border-radius:2px;
+}
+
+.f-menu a:hover {
+    color:white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.f-menu-sml {
+    color:white;
+    font-size:x-small;
+    font-weight:bold;
+}
+
+.f-icons {
     color:rgb(129, 8, 8);
     font-size:large;
 }
@@ -73,3 +77,10 @@ ul {
     list-style-type:none;
 }
 
+li {    
+    border: 1px solid red;
+}
+
+div {
+    border: 1px solid green;
+}
