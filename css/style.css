@@ -1,14 +1,11 @@
-@media (min-width: 1200px) {
-    .p-nav-btn {
+.p-nav-btn {
     position:absolute;
     top:19px;
     left:10px;
-    }
 }
 
 .f-nav {
     background-color:teal;
-    position:relative;
 }
 
 .f-nav a:hover {
@@ -63,7 +60,7 @@ f-search {
 }
 
 .f-menu {
-    height:50px;
+    float:right;
 }
 
 .f-menu-list {
@@ -92,8 +89,4 @@ f-search {
 
 ul {
     list-style-type:none;
-}
-
-section {
-    background-color:teal;
 }
