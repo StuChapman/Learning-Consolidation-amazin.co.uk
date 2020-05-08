@@ -16,7 +16,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="f-brand d-none d-md-block">
+        <div class="f-brand d-none d-xl-block">
             <div>
                 <img src="images/CoffeeCup.jpg" title="coffee cup" width="140" height="50"/>
             </div>
@@ -25,14 +25,22 @@
                 </button></a>
             </div>
         </div>
+        <div>
+            <a class="f-btn-sml d-block d-xl-none" href="index.html"><span style="font-size:small"><i class="fas fa-camera-retro"></i></span> Photos<span style="font-size:x-small">.co.uk</span>
+            </a>
+        </div>
+            <form class="form-inline my-2 my-lg-0 d-none d-xl-block">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
         <div class="f-menu">
             <ul class="row">
                 <li class="active"><a class="nav-link f-menu-list" href="link.html"><i class="fas fa-door-open f-icons">
-                </i><p class="d-none d-md-block"> Hello</p><br><span class="f-menu-sml d-none d-md-block">Sign-in</span></a></li>
+                    </i><span class="d-none d-md-inline"> Hello</span><br><span class="f-menu-sml d-none d-md-inline">Sign-in</span></a></li>
                 <li><a class="nav-link f-menu-list" href="link.html"><i class="fas fa-wallet f-icons">
-                </i> Orders<br><span class="f-menu-sml">& History</span></a></li>
+                    </i><span class="d-none d-md-inline"> Orders</span><br><span class="f-menu-sml d-none d-md-inline">& History</span></a></li>
                 <li><a class="nav-link f-menu-list" href="link.html"><i class="fas fa-shopping-cart f-icons">
-                </i> Basket<br><span class="f-menu-sml">0 items</span></a></li>
+                    </i><span class="d-none d-md-inline"> Basket</span><br><span class="f-menu-sml d-none d-md-inline">0 items</span></a></li>
             </ul>
         </div>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -47,9 +55,9 @@
                     <a class="nav-link" href="#">Basket</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
+            <form class="form-inline my-2 my-lg-0 d-block d-xl-none">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </nav>

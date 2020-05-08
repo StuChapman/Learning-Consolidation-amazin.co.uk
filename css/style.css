@@ -1,11 +1,7 @@
-.p-nav-btn {
-    position:absolute;
-    top:19px;
-    left:10px;
-}
 
 .f-nav {
     background-color:teal;
+    position:relative;
 }
 
 .f-nav a:hover {
@@ -16,10 +12,7 @@
     border-style:none;
     border: 1px solid transparent;
     border-radius: 3px;
-    padding:.5px .1px .5px .5px;
     position:absolute;
-    top:2px;
-    left:2px;
 }
 
 @media (min-width: 1200px) {
@@ -46,11 +39,16 @@
     left:0;
     top:0;
     color:white;
-    background-color:rgba(73, 245, 245, 0.1);
+    background-color:rgba(73, 245, 245, 0.25);
+}
+
+.f-btn-sml {
+    padding-left:2px;
+    color:rgb(255,255,255,0.8);
 }
 
 .f-btn:hover {
-    background-color:rgba(73, 245, 245, 0.2);
+    background-color:rgba(73, 245, 245, 0.15);
 }
 
 f-search {
@@ -60,7 +58,8 @@ f-search {
 }
 
 .f-menu {
-    float:right;
+    height:50px;
+    padding-top:3px;
 }
 
 .f-menu-list {
@@ -83,8 +82,8 @@ f-search {
 }
 
 .f-icons {
-    color:rgb(129, 8, 8);
-    font-size:large;
+    color:rgb(255,255,255,0.5);
+    font-size:x-large;
 }
 
 ul {
