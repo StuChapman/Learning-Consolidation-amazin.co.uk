@@ -10,21 +10,9 @@
 }
 
 .f-brand {
-    border-style:none;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    position:absolute;
-}
-
-@media (min-width: 1200px) {
-  .f-brand {
-    border-style:none;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    position:relative;
-    left:5%;
-    padding:.5px .1px .5px .5px;
-  }
+    padding-left:2px;
+    color:rgb(255,255,255,0.8);
+    font-family: 'Dancing Script', cursive;
 }
 
 .f-brand:hover {
@@ -33,23 +21,12 @@
 }
 
 .f-btn {
-    border-style:none;
-    height:100%;
-    width:100%;
-    position: absolute;;
-    left:0;
-    top:0;
+    background-color:rgba(255,255,255, .5);
+}
+
+.f-btn a:hover {
     color:white;
-    background-color:rgba(73, 245, 245, 0.25);
-}
-
-.f-btn-sml {
-    padding-left:2px;
-    color:rgb(255,255,255,0.8);
-}
-
-.f-btn:hover {
-    background-color:rgba(73, 245, 245, 0.15);
+    background-color:rgba(28, 54, 91, .25);
 }
 
 f-search {
