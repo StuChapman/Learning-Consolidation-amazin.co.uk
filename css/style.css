@@ -6,7 +6,7 @@
 }
 
 .f-nav a:hover {
-    background-color:rgba(0, 128, 128, 0.219);
+    background-color:rgba(151, 172, 177, .4);
 }
 
 .f-burger {
@@ -17,6 +17,10 @@
 .f-burger:hover {
     border: 1px solid black;
     border-radius: 3px;
+}
+
+.f-nav-item {
+    color:white;
 }
 
 .f-brand {
@@ -82,7 +86,7 @@ ul {
 }
 
 .f-hero-container {
-    position:absolute;
+    position: absolute;
     top:0px;
     left:0px;
 }
@@ -93,5 +97,31 @@ ul {
     left:0px;
     height: 100%;
     width: 100%;
-    object-fit: contain
+    object-fit: contain;
+
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.f-intro {
+    position:absolute;
+    top:15%;
+    left:5%;
+    width:225px;
+    padding:10px 10px 0;
+    color:white;
+    font-size:small;
+    text-align:center;
+    background-color:rgba(151, 172, 177, .85);
+    border-radius: 3px;
 }
