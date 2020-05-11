@@ -9,13 +9,27 @@
     background-color:rgba(0, 128, 128, 0.219);
 }
 
+.f-burger {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.f-burger:hover {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
 .f-brand {
-    padding-left:2px;
     color:rgb(255,255,255,0.8);
     font-family: 'Dancing Script', cursive;
+    padding: 0 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 
 .f-brand:hover {
+    color:rgb(255,255,255,0.8);
+    text-decoration:none;
     border: 1px solid black;
     border-radius: 3px;
 }
@@ -37,7 +51,6 @@ f-search {
 
 .f-menu {
     height:50px;
-    padding-top:3px;
 }
 
 .f-menu-list {
