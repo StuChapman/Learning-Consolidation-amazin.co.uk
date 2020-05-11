@@ -1,7 +1,8 @@
 
 .f-nav {
-    background-color:teal;
+    background-color:rgba(28, 54, 91, .85);
     position:relative;
+    z-index: 1;
 }
 
 .f-nav a:hover {
@@ -88,4 +89,19 @@ f-search {
 
 ul {
     list-style-type:none;
+}
+
+.f-hero-container {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+.p-hero-image {
+    position:relative;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain
 }

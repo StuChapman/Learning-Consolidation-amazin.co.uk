@@ -11,12 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300;1,400;1,700&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="navbar <!--navbar-expand-lg--> navbar-dark f-nav">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="f-brand d-none d-xl-block">
+    
+    <nav class="navbar navbar-dark f-nav">
+        <div class="f-brand d-none d-md-block">
             <div>
                 <img src="images/CoffeeCup.jpg" title="coffee cup" width="140" height="50"/>
             </div>
@@ -26,39 +23,38 @@
             </div>
         </div>
         <div>
-            <a class="f-btn-sml d-block d-xl-none" href="index.html"><span style="font-size:small"><i class="fas fa-camera-retro"></i></span> Photos<span style="font-size:x-small">.co.uk</span>
-            </a>
-        </div>
-            <form class="form-inline my-2 my-lg-0 d-none d-xl-block">
+            <form class="form-inline f-search d-none d-md-block">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
+        </div>
         <div class="f-menu">
             <ul class="row">
                 <li class="active"><a class="nav-link f-menu-list" href="link.html"><i class="fas fa-door-open f-icons">
-                    </i><span class="d-none d-md-inline"> Hello</span><br><span class="f-menu-sml d-none d-md-inline">Sign-in</span></a></li>
+                </i> Hello<br><span class="f-menu-sml">Sign-in</span></a></li>
                 <li><a class="nav-link f-menu-list" href="link.html"><i class="fas fa-wallet f-icons">
-                    </i><span class="d-none d-md-inline"> Orders</span><br><span class="f-menu-sml d-none d-md-inline">& History</span></a></li>
+                </i> Orders<br><span class="f-menu-sml">& History</span></a></li>
                 <li><a class="nav-link f-menu-list" href="link.html"><i class="fas fa-shopping-cart f-icons">
-                    </i><span class="d-none d-md-inline"> Basket</span><br><span class="f-menu-sml d-none d-md-inline">0 items</span></a></li>
+                </i> Basket<br><span class="f-menu-sml">0 items</span></a></li>
             </ul>
         </div>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign-in <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Orders</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Basket</a>
+        <div>
+            <button class="navbar-toggler ml-0 p-nav-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="link.html">About</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="link.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Order</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="link.html">Prints</a>
+                        <a class="dropdown-item" href="link.html">Canvases</a>
+                        <a class="dropdown-item" href="link.html">Digital</a>
+                    </div>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 d-block d-xl-none">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
 
