@@ -47,7 +47,7 @@
     background-color:rgba(28, 54, 91, .25);
 }
 
-f-search {
+.f-search {
     width:100%;
     position: absolute;
     left:80%;
@@ -70,6 +70,7 @@ f-search {
     border: 1px solid black;
     border-radius: 3px;
 }
+
 .f-menu-sml {
     color:white;
     font-size:x-small;
@@ -86,7 +87,7 @@ ul {
 }
 
 .f-hero-container {
-    position: absolute;
+    position:absolute;
     top:0px;
     left:0px;
 }
@@ -109,7 +110,7 @@ ul {
         transform: scale(1.1);
     }
     to{
-        transform: scale(1);
+        transform: scale(1.0);
     }
 }
 
@@ -127,37 +128,41 @@ ul {
 }
 
 .f-prints-container {
-    position: absolute;
-}
-
-.f-prints {
     position:absolute;
     top:55%;
     left:5%;
+    width:25%;
+    height:40%;
+}
+
+.f-prints {
+    position:relative;
+    top:55%;
+    left:5%;
     padding-top:7px;
-    width:250px;
-    height:400px;
+    width:25%;
+    height:40%;
     color:black;
     text-align:center;
     background-color:white;
 }
 
 .p-prints-image {
-    position: absolute;
-    top:10px;
-    left:25px;
-    width: 200px;
-    height: 360px;
+    position:relative;;
+    top:1%;
+    left:2.5%;
+    width:20%;
+    height:36%;
     object-fit: contain;
 }
 
 .p-prints-link {
     position:absolute;
-    bottom:20px;
-    left:25px;
+    bottom:2%;
+    left:2.5%;
     font-size:small;
 }
 
 div {
-    border:1px solid blue;
+    border:1px solid orange;
 }
