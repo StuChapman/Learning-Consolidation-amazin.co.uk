@@ -95,13 +95,13 @@ ul {
     position:relative;
     top:0px;
     left:0px;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+    width:100%;
+    height:100%;
+    object-fit:contain;
 
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-name:hero-zoom;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
 }
 
 @keyframes hero-zoom {
@@ -124,4 +124,40 @@ ul {
     text-align:center;
     background-color:rgba(151, 172, 177, .85);
     border-radius: 3px;
+}
+
+.f-prints-container {
+    position: absolute;
+}
+
+.f-prints {
+    position:absolute;
+    top:55%;
+    left:5%;
+    padding-top:7px;
+    width:250px;
+    height:400px;
+    color:black;
+    text-align:center;
+    background-color:white;
+}
+
+.p-prints-image {
+    position: absolute;
+    top:10px;
+    left:25px;
+    width: 200px;
+    height: 360px;
+    object-fit: contain;
+}
+
+.p-prints-link {
+    position:absolute;
+    bottom:20px;
+    left:25px;
+    font-size:small;
+}
+
+div {
+    border:1px solid blue;
 }
