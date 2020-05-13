@@ -166,5 +166,15 @@ ul {
 }
 
 div {
-    border:1px solid orange;
+    border:1px solid transparent;
+}
+
+/*---overrules--*/
+
+.nav-link {
+    padding:7px;
+}
+
+.navbar-toggler {
+    padding:3px;
 }
