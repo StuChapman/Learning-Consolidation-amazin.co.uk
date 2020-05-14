@@ -127,9 +127,7 @@ ul {
 .f-prints-container {
     position:absolute;
     top:40%;
-    left:5%;
-    width:92.5%;
-    min-height:300px;
+    left:0%;
 }
 
 .f-prints-container h5 {
@@ -137,14 +135,16 @@ ul {
 }
 
 .f-prints {
+    position:relative;
     color:black;
     text-align:center;
     background-color:white;
+    height: 300px;
+    margin-left: 0;
 }
 
 .p-prints-image {
-    height:100%;
-    object-fit: contain;
+    height:75%;
 }
 
 .p-prints-link {
@@ -153,8 +153,6 @@ ul {
     left:2.5%;
     font-size:small;
 }
-
-
 
 div {
     border:1px solid red;
@@ -168,4 +166,9 @@ div {
 
 .navbar-toggler {
     padding:3px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
