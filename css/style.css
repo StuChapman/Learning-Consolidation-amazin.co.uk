@@ -135,16 +135,24 @@ ul {
 }
 
 .f-prints {
-    position:relative;
     color:black;
     text-align:center;
-    background-color:white;
-    height: 300px;
-    margin-left: 0;
 }
 
-.p-prints-image {
-    height:75%;
+.f-prints-image-header {
+    margin-left:0%;
+    margin-right:0%;
+    margin-bottom:0%;
+    padding-bottom:2%;
+    width:100%;
+    background-color:white;
+}
+
+.f-prints-image {
+    padding:0 10% 10% 10%;
+    margin-bottom:10%;
+    width:100%;
+    background-color:white;
 }
 
 .p-prints-link {
