@@ -150,7 +150,7 @@ ul {
 
 .f-prints-image {
     padding:0 10% 10% 10%;
-    margin-bottom:10%;
+    margin-bottom:0%;
     width:100%;
     background-color:white;
 }
@@ -160,10 +160,6 @@ ul {
     bottom:2%;
     left:2.5%;
     font-size:small;
-}
-
-div {
-    border:1px solid red;
 }
 
 /*---overrules--*/
@@ -179,4 +175,19 @@ div {
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+.col-6 {
+    padding:0;
+}
+
+@media screen and (min-width: 1024px) {
+    .col-6 {
+    padding:1%;
+    }
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
 }
