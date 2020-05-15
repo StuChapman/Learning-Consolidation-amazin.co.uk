@@ -63,7 +63,7 @@
 
     <div class="f-hero-container"> 
         <div class="f-intro">
-            <p>Prints, Canvases, Digital etc ...
+            <p>Prints, Canvases, Digital,  ...
             </p>
         </div>
 
